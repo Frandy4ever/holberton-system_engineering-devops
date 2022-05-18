@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-#Script that parses Apache logs
+#Script that sorts apache log data by IP and HTTP
 awk -F' ' '{ print $1 " " $9 }' apache-access.log | sort | uniq -c | sort -nr
