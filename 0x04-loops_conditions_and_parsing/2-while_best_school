@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-#Creating a script that uses while loop.
+#Creating a script that uses a while loop
 x=1
 while [ $x -le 10 ]
-echo "Best School"
-x=$(( x + 1 ))
-done
+do
+    echo "Best School"
+    x=$(( x + 1 ))
+    done
