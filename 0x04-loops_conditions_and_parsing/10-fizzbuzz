@@ -1,20 +1,17 @@
 #!/usr/bin/env bash
 #Program that prints fizzbuzz in a sequence
-conter=1
-while [ $conter -le 100 ];
+for ((i=1;i<=100;i++))
 do
-    if [ $((conter%3)) == 0 -a $((conter%5)) == 0 ]
+    if ! ((i%15))
     then
-	echo "FizzBuzz"
-    elif [ $((conter%3)) == 0 ]
+	echo FizzBuzz
+    elif ! ((i%3))
     then
-	echo "Fizz"
-    elif [ $((conter%5)) == 0 ]
+	echo Fizz
+    elif ! ((i%5))
     then
-	echo "Buzz"
+	echo Buzz
     else
-	echo $conter
-    fi
-    let conter=conter+1
+	echo $i
+	fi
 done
-
