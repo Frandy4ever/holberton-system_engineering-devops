@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 #A script that kills 4 to infinity and beyond process
 
-kill -9 "$(pgrep -f 4-to_infinity_and_beyond)"
+pkill -f ./4-to_infinity_and_beyond
