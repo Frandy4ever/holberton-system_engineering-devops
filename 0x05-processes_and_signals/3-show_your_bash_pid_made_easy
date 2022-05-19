@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#A script that displays PID  various info.
+#Displaying the PID info
 
 pgrep bash -1
