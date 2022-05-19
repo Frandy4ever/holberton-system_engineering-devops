@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 #A script that kills to infinity and beyond
 
-file=$(pgrep -f 4-to_infinity_and_beyond)
-kill "$file"
-
+kill -9 -1

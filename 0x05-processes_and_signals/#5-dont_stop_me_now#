@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#A script that kills 4 to infinity and beyond
-kill 
+#A script that kills to infinity and beyond
+
+file=$(pgrep -f 4-to_infin
