@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 #A script that kills 4 to infinity and beyond process
-
-kill -f ./4-to_infinity_and_beyond
+PID = $(Pgrep -f "infinity")
+kill PID
 done

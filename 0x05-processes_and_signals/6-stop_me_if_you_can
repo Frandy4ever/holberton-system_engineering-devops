@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+Pkill -15 -f "infinity"
+done
