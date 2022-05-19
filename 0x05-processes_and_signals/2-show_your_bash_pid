@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #A script that displays lines containing bash while allowing to easily get the PID of the Bash process.
 
-ps -aux | grep bash
+ps -faux | grep "bash"
