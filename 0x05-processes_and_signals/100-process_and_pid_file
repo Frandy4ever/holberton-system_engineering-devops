@@ -6,7 +6,7 @@
 # deletes the file /var/run/holbertonscript.pid and terminates upon
 #+ receiving a SIGQUIT or SIGTERM.
 
-sudo touch /var/run/holbertonscript.pid
+sudo touch /var/run/myscript.pid
 sudo bash -c 'echo $$ > /var/run/myscript.pid'
 while true
 do
